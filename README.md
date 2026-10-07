@@ -109,14 +109,14 @@ In order to set up an authoritative name server that is available to clients, yo
 
 ### Mail Servers
 
-To configure MX (mail servers) for a zonen example:
+To configure MX (mail servers) for a zone example:
 ```Yaml
 mail_servers:
   - name: mailserver1.mydomain.com.
     preference: 10
 ```
 
-* It*s also possiblke to add a MX for a sub-zone without creating the all subdomain :
+* It's also possible to add a MX for a sub-zone without creating the all subdomain :
 ```Yaml
 mail_servers:
   - name: mailserver1.mydomain.com.
